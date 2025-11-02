@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu, Bell, User, Moon, Sun } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
+import NotificationCenter from './NotificationCenter';
 
 const Header = ({ onMenuClick }) => {
   const { user, logout } = useAuth();
@@ -40,9 +41,7 @@ const Header = ({ onMenuClick }) => {
           </button>
 
           {/* Notifications */}
-          <button className="p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100">
-            <Bell className="h-5 w-5" />
-          </button>
+          <NotificationCenter />
 
           {/* User menu */}
           <div className="flex items-center space-x-3">

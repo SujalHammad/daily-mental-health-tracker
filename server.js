@@ -10,6 +10,7 @@ const moodRoutes = require('./routes/mood');
 const activityRoutes = require('./routes/activities');
 const journalRoutes = require('./routes/journal');
 const analyticsRoutes = require('./routes/analytics');
+const chatbotRoutes = require('./routes/chatbot');
 
 const app = express();
 
@@ -49,6 +50,7 @@ app.use('/api/mood', moodRoutes);
 app.use('/api/activities', activityRoutes);
 app.use('/api/journal', journalRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use('/api/chatbot', chatbotRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

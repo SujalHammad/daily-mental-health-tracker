@@ -12,21 +12,29 @@
     "setup": "node setup.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0",
+    "axios": "^1.12.2",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
     "express-validator": "^7.0.1",
     "helmet": "^7.0.0",
-    "express-rate-limit": "^6.10.0"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "react-chatbot-kit": "^2.2.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
   },
-  "keywords": ["mental-health", "tracker", "react", "express", "mongodb"],
+  "keywords": [
+    "mental-health",
+    "tracker",
+    "react",
+    "express",
+    "mongodb"
+  ],
   "author": "Mental Health Tracker",
   "license": "MIT"
 }
