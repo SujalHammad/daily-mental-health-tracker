@@ -116,10 +116,10 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
 ```
 
-Run the server:
+Run the full application (Frontend + Backend):
 
 ```bash
-npm run dev
+npm run dev:full
 ```
 
 ---
