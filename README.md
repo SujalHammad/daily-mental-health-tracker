@@ -29,6 +29,7 @@ A full-stack web application for monitoring mental well-being through mood loggi
 ## 📋 Table of Contents
 
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture)
 - [Getting Started](#-getting-started)
@@ -50,23 +51,34 @@ A full-stack web application for monitoring mental well-being through mood loggi
 |---|---|
 | 🔐 **Authentication** | JWT-based auth, bcrypt password hashing, protected routes, rate limiting |
 | 😊 **Mood Tracking** | Log moods with intensity & emotion tags, visual calendar, trend analysis |
-<img width="1911" height="1043" alt="image" src="https://github.com/user-attachments/assets/3ba2f634-e96e-4f6e-8260-36dacbaab570" />
-
 | 📝 **Journaling** | Private entries with rich text, tagging, sentiment analysis, and search |
-<img width="1907" height="1027" alt="image" src="https://github.com/user-attachments/assets/ffb513c2-20e7-4a54-a00f-efcd67966b3f" />
-
 | 🏃 **Activity Logging** | Track exercise, meditation, sleep, and social activities with streaks |
-<img width="1912" height="1024" alt="image" src="https://github.com/user-attachments/assets/f0806849-589e-4010-bf07-cbd58dc16308" />
-
 | 📊 **Analytics Dashboard** | Charts for mood patterns, activity correlation, and weekly/monthly reports |
-<img width="1910" height="1025" alt="image" src="https://github.com/user-attachments/assets/d6225879-b0e3-4ae7-ac57-cb67c1af0cf3" />
-<img width="1903" height="1017" alt="image" src="https://github.com/user-attachments/assets/c6e4a434-79ea-40f9-b41c-a5ef39582202" />
-
-
 | 🤖 **Smart Chatbot** | Rule-based conversational assistant that reads your mood, sleep, stress, and activity data to deliver personalised responses, proactive alerts, and crisis signposting |
-<img width="380" height="722" alt="image" src="https://github.com/user-attachments/assets/d82f203f-fd64-4685-9e20-16dc526eb71a" />
-
 | 🔔 **Notifications** | Reminders, declining-mood alerts, stress tips, and sleep quality nudges |
+
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./assets/dashboard.png)
+
+### Mood Tracker
+![Mood Tracker](./assets/mood-tracker.png)
+![Mood Tracker - Activities & Notes](./assets/mood-tracker-2.png)
+
+### Activities
+![Activities](./assets/activities.png)
+
+### Journal
+![Journal](./assets/journal.png)
+
+### Analytics
+![Analytics - Overview](./assets/analytics.png)
+![Analytics - Insights & Recommendations](./assets/analytics-2.png)
+
+### Wellness Chatbot
+![Chatbot](./assets/chatbot.png)
 
 ---
 
