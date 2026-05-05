@@ -61,24 +61,24 @@ A full-stack web application for monitoring mental well-being through mood loggi
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](./assets/dashboard.png)
+<img width="1898" height="1016" alt="image" src="https://github.com/user-attachments/assets/0f9b44b6-b794-4337-b7af-3977c4a565c4" />
 
 ### Mood Tracker
-![Mood Tracker](./assets/mood-tracker.png)
-![Mood Tracker - Activities & Notes](./assets/mood-tracker-2.png)
+<img width="1891" height="1009" alt="image" src="https://github.com/user-attachments/assets/d60e3474-1594-4c13-9fb8-2a17a15ec2f9" />
+<img width="1897" height="1016" alt="image" src="https://github.com/user-attachments/assets/2a67f6c8-c2ca-48cf-88e5-f0a5ab8cfaa0" />
 
 ### Activities
-![Activities](./assets/activities.png)
+<img width="1904" height="1016" alt="image" src="https://github.com/user-attachments/assets/625aa108-57a1-4bc2-b021-423a54a36c73" />
 
 ### Journal
-![Journal](./assets/journal.png)
+<img width="1893" height="1016" alt="image" src="https://github.com/user-attachments/assets/75d33b1d-1ce3-46f4-8f40-3ecdd0efa8bd" />
 
 ### Analytics
-![Analytics - Overview](./assets/analytics.png)
-![Analytics - Insights & Recommendations](./assets/analytics-2.png)
+<img width="1891" height="1008" alt="image" src="https://github.com/user-attachments/assets/d5673ee5-9d41-4ff1-9f27-4f74eadfdb54" />
+<img width="1888" height="1005" alt="image" src="https://github.com/user-attachments/assets/75408cea-3af0-40ac-9a4c-920883a09132" />
 
 ### Wellness Chatbot
-![Chatbot](./assets/chatbot.png)
+<img width="338" height="614" alt="image" src="https://github.com/user-attachments/assets/e46fd3c1-196a-405d-8596-1dec8b7be0e1" />
 
 ---
 
@@ -197,7 +197,7 @@ PORT=5000
 NODE_ENV=development
 
 # Database
-MONGO_URI=mongodb://localhost:27017/mental-health-tracker
+MONGO_URI=your_mongodb_uri
 # MongoDB Atlas alternative:
 # MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/mental-health-tracker
 
